@@ -1,0 +1,14 @@
+.btn-nmp {
+  & {
+    outline: none !important;
+    border: 0 !important;
+  }
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    background-color: inherit !important;
+  }
+}
